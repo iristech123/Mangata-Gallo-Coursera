@@ -1,1 +1,1 @@
-# Mangata-Gallo-Coursera
+# mangatajewlery-coursera
