@@ -16,7 +16,7 @@ h1 {
 }
 
 h1::selection {
-  background-color: #26877fbf;
+  background-color: #c4e63fbf;
   color: #ffffff;
 }
 
@@ -63,7 +63,7 @@ nav a::before {
   content: "";
   height: 0.1rem;
   width: 0;
-  background-color: #26877f;
+  background-color: #7277d7;
   display: inline-block;
   position: absolute;
   bottom: -2px;
