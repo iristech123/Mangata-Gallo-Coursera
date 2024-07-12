@@ -9,7 +9,7 @@
 h1 {
   text-align: center;
   padding-bottom: 0.5em;
-  font-size: 5em;
+  font-size: 4em;
   font-family: "Futura Maxi CG Bold", sans-serif;
   text-transform: uppercase;
   line-height: 1em;
@@ -17,21 +17,21 @@ h1 {
 
 h1::selection {
   background-color: #c4e63fbf;
-  color: #ffffff;
+  color: #130202c9;
 }
 
 .nav-logo {
-  padding-top: 2em;
+  padding-top: 1em;
   text-align: center;
 }
 
 .nav-logo img {
-  max-width: 5em;
+  max-width: 3em;
   height: auto;
 }
 
 body {
-  background-color: rgb(246, 247, 239);
+  background-color: rgb(247, 239, 243);
   font-family: "Open Sans";
 }
 
@@ -53,7 +53,7 @@ ul li {
 nav a {
   text-decoration: none;
   letter-spacing: 0.2rem;
-  color: #18202D;
+  color: #9c3370;
   position: relative;
   text-transform: uppercase;
   font-size: 16px;
@@ -63,7 +63,7 @@ nav a::before {
   content: "";
   height: 0.1rem;
   width: 0;
-  background-color: #7277d7;
+  background-color: #656bd3;
   display: inline-block;
   position: absolute;
   bottom: -2px;
@@ -102,7 +102,7 @@ nav a:hover::before {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white;
+  color: rgb(205, 41, 147);
 }
 
 .image-overlay h1 {
@@ -114,15 +114,15 @@ nav a:hover::before {
 }
 
 .image-overlay p {
-  font-size: 24px; 
+  font-size: 10px; 
 }
 
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 1%;
+  height: 1%;
   background-color: rgba(
     0,
     0,
@@ -135,13 +135,13 @@ nav a:hover::before {
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #26877f;
+  background-color: #9d478b;
   border: none;
-  color: #ffffff;
+  color: #8216b7;
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  width: 200px;
+  width: 2px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -164,7 +164,7 @@ nav a:hover::before {
 }
 
 .button:hover span {
-  padding-right: 25px;
+  padding-right: 5px;
 }
 
 .button:hover span:after {
@@ -195,9 +195,9 @@ nav a:hover::before {
 }
 
 .icon {
-  font-size: 2rem;
-  padding-bottom: 2em;
-  margin-bottom: 10px;
+  font-size: 20rem;
+  padding-bottom: 20em;
+  margin-bottom: 20px;
 }
 
 .weirdflex > h1 {
@@ -210,25 +210,26 @@ nav a:hover::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 20vh;
 }
 
 .slider-wrapper > h1 {
   padding-top: 1.5em;
-  color: rgb(246, 247, 239);
+  /* color: rgb(152, 94, 143); */
+  color:#060606;
 }
 
 .slider-wrapper {
   position: relative;
   overflow: hidden;
-  background-color: #26877f;
+  background-color: #f4e1ea;
 }
 
 .slides-container {
   height: calc(100vh - 2rem);
   width: 100%;
   display: flex;
-  overflow: scroll;
+  overflow: auto;
   scroll-behavior: smooth;
   list-style: none;
   margin: 0;
@@ -245,19 +246,19 @@ nav a:hover::before {
   height: 4rem;
   background-color: white;
   border: none;
-  width: 2rem;
+  width: 1rem;
   font-size: 3rem;
   padding: 0;
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 1.5;
   transition: opacity 100ms;
 }
 
 .slide img {
-  width: 90vw;
+  width: 65vw;
   height: 80vh;
   overflow: hidden;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .slide-arrow:hover,
@@ -278,7 +279,7 @@ nav a:hover::before {
 }
 
 .slide {
-  flex: 0 0 100%;
+  flex: 0 100 100%;
   height: 400px;
 }
 
@@ -288,12 +289,12 @@ nav a:hover::before {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 .innerdiv
 {
 	transform: scale(0.9);
-	margin: 1rem;
+	margin: rem;
 	display: grid;
 	grid-gap: 1.5rem;
 	grid-template-rows: repeat(2,22rem);
