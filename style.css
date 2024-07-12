@@ -9,7 +9,7 @@
 h1 {
   text-align: center;
   padding-bottom: 0.5em;
-  font-size: 4em;
+  font-size: em;
   font-family: "Futura Maxi CG Bold", sans-serif;
   text-transform: uppercase;
   line-height: 1em;
@@ -21,12 +21,12 @@ h1::selection {
 }
 
 .nav-logo {
-  padding-top: 1em;
+  padding-top: 5em;
   text-align: center;
 }
 
 .nav-logo img {
-  max-width: 3em;
+  max-width: 70em;
   height: auto;
 }
 
@@ -47,7 +47,7 @@ nav ul {
 
 ul li {
   display: inline-block;
-  margin: 3%;
+  margin: 5%;
 }
 
 nav a {
@@ -63,7 +63,7 @@ nav a::before {
   content: "";
   height: 0.1rem;
   width: 0;
-  background-color: #656bd3;
+  background-color: #F7EFF3;
   display: inline-block;
   position: absolute;
   bottom: -2px;
@@ -114,7 +114,7 @@ nav a:hover::before {
 }
 
 .image-overlay p {
-  font-size: 10px; 
+  font-size: 11px; 
 }
 
 .overlay {
@@ -135,13 +135,13 @@ nav a:hover::before {
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #9d478b;
+  background-color: #9b5c8e;
   border: none;
   color: #8216b7;
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  width: 2px;
+  width: 5px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -196,8 +196,8 @@ nav a:hover::before {
 
 .icon {
   font-size: 20rem;
-  padding-bottom: 20em;
-  margin-bottom: 20px;
+  padding-bottom: 30em;
+  margin-bottom: 30px;
 }
 
 .weirdflex > h1 {
@@ -206,11 +206,12 @@ nav a:hover::before {
   font-family: "Futura Maxi CG Bold", sans-serif;
 }
 
+/* edit product category frame size */
 .wwd {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 90vh;
 }
 
 .slider-wrapper > h1 {
@@ -225,6 +226,8 @@ nav a:hover::before {
   background-color: #f4e1ea;
 }
 
+
+/* ----------------------------------------- */
 .slides-container {
   height: calc(100vh - 2rem);
   width: 100%;
@@ -234,7 +237,7 @@ nav a:hover::before {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 0;
+  gap: -10;
 }
 
 .slide-arrow {
