@@ -237,9 +237,10 @@ nav a:hover::before {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: -10;
+  gap: -10; /*TODO：可能需要修改*/
 }
 
+/* .slide-arrow类用于幻灯片箭头的样式设置，包括定位、尺寸、背景颜色和过渡效果。 */
 .slide-arrow {
   position: absolute;
   display: flex;
@@ -249,7 +250,7 @@ nav a:hover::before {
   height: 4rem;
   background-color: white;
   border: none;
-  width: 1rem;
+  width: 3rem;
   font-size: 3rem;
   padding: 0;
   cursor: pointer;
@@ -257,6 +258,7 @@ nav a:hover::before {
   transition: opacity 100ms;
 }
 
+/* .slide类下的img元素，用于设置图片的尺寸和显示方式。 */
 .slide img {
   width: 65vw;
   height: 80vh;
